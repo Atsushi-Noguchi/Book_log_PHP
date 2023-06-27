@@ -18,6 +18,7 @@ class ComposerStaticInit6b8adeb57256322b9f3b5e53b8e6a647
             'Symfony\\Polyfill\\Php80\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Ctype\\' => 23,
+            'ScssPhp\\ScssPhp\\' => 16,
         ),
         'P' => 
         array (
@@ -46,6 +47,10 @@ class ComposerStaticInit6b8adeb57256322b9f3b5e53b8e6a647
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
+        'ScssPhp\\ScssPhp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/scssphp/scssphp/src',
+        ),
         'PhpOption\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption',
@@ -62,6 +67,7 @@ class ComposerStaticInit6b8adeb57256322b9f3b5e53b8e6a647
 
     public static $classMap = array (
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/PhpToken.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
